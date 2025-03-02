@@ -1,0 +1,200 @@
+.fondo {
+  text-align: center;
+  animation: cambioFondo 10s infinite;
+  height: 350px;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+  margin: 5px;
+}
+@keyframes cambioFondo {
+  0% {
+    background-image: url("img/pyramid-2826194_1280.jpg");
+  }
+  33% {
+    background-image: url("img/tour-3491266_1280.jpg");
+  }
+  66% {
+    background-image: url("img/vietnam-1139411_1280.jpg");
+  }
+  100% {
+    background-image: url("img/photographer-407068_1280.jpg");
+  }
+}
+.navegacion {
+  padding: 20px;
+  text-align: center;
+}
+.navegacion .menu {
+  color: #22577a;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 0 20px;
+  border-radius: 10px;
+  transition: background 0.3s ease-in-out;
+  padding: 10px 20px;
+  box-shadow: 3px 3px 5px #4472ca;
+}
+
+.navegacion .menu:hover {
+  background-color: #57cc99;
+  font-size: 40px;
+}
+
+.titulo {
+  text-align: center;
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+  color: black;
+  background-color: rgba(240, 248, 255, 0.8);
+  padding: 50px;
+  margin: 5px;
+  border-radius: 10px;
+  transition: background 0.4s ease-in-out;
+  text-shadow: 2px 5px 5px #8da9c4;
+}
+.titulo:hover {
+  background-color: #168aad;
+  color: white;
+}
+
+.presentacion {
+  text-align: justify;
+  font-size: medium;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 20px;
+}
+.presentacion h4 {
+  text-align: center;
+  font-size: medium;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 30px;
+  text-transform: uppercase;
+}
+.caja {
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  margin: auto;
+  padding: 20px;
+  box-shadow: 3px 5px 5px #8da9c4;
+  overflow: hidden;
+  overflow-y: scroll;
+  font-size: medium;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: justify;
+  margin: 5px;
+  border-radius: 10px;
+}
+.caja h3 {
+  text-align: center;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow: 2px 5px 3px #8da9c4;
+}
+
+div.caja.oculto img {
+  display: none;
+}
+div.caja.oculto:hover img {
+  display: block;
+  width: 300px;
+}
+
+.lista {
+  text-align: center;
+  font-size: medium;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #cad2c5;
+  max-width: 450px;
+  float: left;
+  margin: 20px;
+  background-color: #fdfffc;
+  padding: 25px;
+}
+.a {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+.ordenada {
+  font-size: 1em;
+  padding: 10px 6px;
+  border-bottom: 1px solid #80ed99;
+  text-align: justify;
+  transition: all 0.5s ease-in-out;
+  list-style: decimal inside;
+}
+ol li:hover {
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+  transform: translateX(5px);
+}
+
+.tabla {
+  text-align: center;
+  font-size: medium;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #cad2c5;
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+  max-width: 700px;
+  background-color: #fdfffc;
+  padding: 5px;
+  float: left;
+}
+.p {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+td {
+  font-size: 1em;
+  padding: 10px 6px;
+  border-bottom: 1px solid #80ed99;
+  text-align: justify;
+  transition: all 0.5s ease-in-out;
+  list-style: decimal inside;
+}
+
+.ultimo {
+  text-align: center;
+  font-size: 1.5em;
+}
+.imagen {
+  width: 400px;
+}
+.img {
+  display: inline-block;
+  margin: 20px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px #8da9c4;
+  font-size: medium;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: justify;
+}
+
+.video {
+  margin: 5px;
+  margin-left: 10px;
+  width: 500px;
+  max-width: 600px;
+  display: inline-block;
+}
+.fomulario {
+  max-width: 600px;
+}
+.ultimo {
+  font-size: 20px;
+  font-family: cursive;
+  background-color: #57cc99;
+}
